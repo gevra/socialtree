@@ -26,7 +26,8 @@ $content-width:    1800px !default;
 $on-palm:          1600px !default;
 $on-laptop:        1800px !default;
 
-$on-medium:        $on-palm !default;
+//$on-medium:        $on-palm !default;
+$on-medium:        800px !default;
 $on-large:         $on-laptop !default;
 
 // Use media queries like this:
