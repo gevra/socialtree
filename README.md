@@ -1,4 +1,9 @@
-The repository contains the dataset, the code and interactive news story summaries used in the <i>"SocialTree: Socially Augmented Structured Summaries of News Stories"</i> paper by <i>Gevorg Poghosyan</i> and <i>Georgiana Ifrim</i> presented at [ACM Hypertext 2019](https://human.iisys.de/ht2019/).
+This repository contains the postprint, the dataset, the code and interactive news story summaries used in the <i>"SocialTree: Socially Augmented Structured Summaries of News Stories"</i> paper by <i>Gevorg Poghosyan</i> and <i>Georgiana Ifrim</i> presented at the [30th ACM Conference on Hypertext & Social Media (HT '19)](https://human.iisys.de/ht2019/).
+
+The authors' version of the work is available [locally in this repository](./socialtree.pdf). 
+It is posted here for your personal use. Not for redistribution. 
+The definitive Version of Record was published in Proceedings of 30th ACM Conference on Hypertext & Social Media (HT '19), [https://doi.org/10.1145/3342220.3343668](https://doi.org/10.1145/3342220.3343668).
+
 
 # Interactive examples
 The rendered examples are available also online at [https://gevra.github.io/socialtree/](https://gevra.github.io/socialtree/).
@@ -13,6 +18,8 @@ Each <tt>.html</tt> file in <tt>interactive_summaries</tt> directory (along with
 <br>
 <b>Please make sure your browser doesn't block any javascript running. Some adblockers may block it.</b>
 
+
+
 # Dataset(s)
 The <tt>data</tt> folder contains the dataset used in the paper.
 The a coma-separated file contains <tt>290657</tt> articles in the period from <i>15.07.2015</i> to <i>24.05.2017</i>.
@@ -20,11 +27,16 @@ The a coma-separated file contains <tt>290657</tt> articles in the period from <
 In addition to the full dataset, <tt>data</tt> directory contains the retrieved articles for each of the queries used in the user study.
 <br>
 Similarly, <tt>data_WaPo</tt> folder contains <tt>184759</tt> tagged articles of [The Washington Post dataset](https://trec.nist.gov/data/wapost/).
+
+These datasets were produced with <i>Hashtagger+</i> tool described in [this paper](https://doi.org/10.1109/TKDE.2017.2754253) and available at [https://github.com/gevra/hashtagger_plus_offline](https://github.com/gevra/hashtagger_plus_offline).
 <br>
-<br>
+A collection of <b><tt>198</tt> million</b> high quality news-related hashtagged tweets used for creating the tagged article datasets is available at [https://doi.org/10.6084/m9.figshare.7932422](https://doi.org/10.6084/m9.figshare.7932422) for <i>15.07.2015</i>-<i>24.05.2017</i> period.
+
 <b>To avoid copyright infingement, we share only the article URL, the tag profile and the query relevance score.</b>
 <br>
 The code for article crawling and processing is included in the main package.
+
+
 
 # Code
 The current implementation of SocialTree extraction requires Python 3.6 or later. 
