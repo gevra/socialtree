@@ -58,6 +58,6 @@ traitlets==4.3.2
 urllib3==1.24.1
 wcwidth==0.1.7
 webencodings==0.5.1
-wheel==0.32.3
+wheel==0.38.1
 widgetsnbextension==3.4.2
 yapf==0.25.0
